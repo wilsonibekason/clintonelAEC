@@ -44,7 +44,7 @@ const Theme = ({ state }) => {
           <Loading when={data.isFetching} />
           <List when={data.isArchive} />
           <Post when={data.isPostType} />
-          <PageError when={data.isError} />
+          <PageError when={data.isError} /> 
         </Switch>
       </Main>
     </>
